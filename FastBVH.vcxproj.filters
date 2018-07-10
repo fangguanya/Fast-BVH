@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{2de7e2be-0521-43bc-acab-604aade340b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c48fe80d-2df1-4018-b8b5-6235fa079660}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BBox.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Stopwatch.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BVH.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTracerTest.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
